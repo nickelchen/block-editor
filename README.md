@@ -5,7 +5,7 @@ Block-Editor is a react component that is used to compose articles.
 For an article, it can be seperated to `blocks`, these blocks can be moved around, reorder, added, deleted,
 at last time, when author finish composing, he can get an array of blocks.
 
-block-editor support four types of blocks
+Block-editor support four types of blocks
 
 * text: an autoresize textarea
 * photo: you can select image files from local folder, it will be converted to base64 data
