@@ -10,7 +10,15 @@ block-editor support four types of blocks
 * text: an autoresize textarea
 * photo: you can select image files from local folder, it will be converted to base64 data
 * link: a url text
-* location: a location map, after search keywords, you can select a Poi. For now, map provider is [amap][https://lbs.amap.com/api/javascript-api/summary/]
+* location: a location map, after search keywords, you can select a Poi. For now, map provider is [amap](https://lbs.amap.com/api/javascript-api/summary/)
+
+### Features
+
+* support multiple block types: text, photo, link, location.
+* drag and drop to re-order blocks.
+* add & del blocks.
+* edit blocks in place.
+* nice icons :-)
 
 This repo is a demo app, which shows the usage of block-editor component.
 
