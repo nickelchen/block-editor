@@ -1,0 +1,151 @@
+
+.BlockEditor {
+    padding-bottom: 20px;
+}
+
+.BlockEditor .ElemPhoto,
+.BlockEditor .ElemLink,
+.BlockEditor .ElemText,
+.BlockEditor .ElemLocation {
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 0;
+}
+
+.BlockEditor img.ElemDragBar {
+    position: absolute;
+    bottom: 55px;
+    width: 25px;
+    right: -25px;
+}
+
+.BlockEditor img.ElemDelIcon {
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    margin-top: -50px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    z-index: 10;
+}
+
+img.FormIcon {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+img.Indicator {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    margin-top: -2px;
+}
+
+.photoPreviewWrapper {
+    position: relative;
+}
+
+.photoPreview {
+    position: relative;
+    height: 250px;
+    border: 2px solid #e5e5e5;
+    text-align: center;
+    line-height: 200px;
+}
+
+.photoPreview img {
+    width: 100%;
+}
+
+.photoMask {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    z-index: 2;
+}
+
+.photoMask .maskTips {
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 100%;
+    left: 0;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    margin-top: -16px;
+}
+
+.photoMask img.retry {
+    width: 30px;
+    height: auto;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+
+
+
+.readonly.ElemLink,
+.readonly.ElemText,
+.readonly.ElemPhoto,
+.readonly.ElemLocation {
+    margin: 0 0 40px 0;
+    position: relative;
+    z-index: 2;
+}
+
+
+.readonly.ElemPhoto.readonly .photoPreview {
+    margin-bottom: 20px;
+    height: auto;
+    border: none;
+}
+
+.readonly.ElemText p {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.readonly.ElemLink,
+.readonly.ElemLocation {
+    text-align: center;
+}
+
+.readonly.ElemLink .wrapper,
+.readonly.ElemLocation .wrapper {
+    margin: 0 auto;
+    padding: 10px 28px;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: auto;
+    font-size: 16px;
+}
+
+.readonly.ElemLink .wrapper {
+    background-color: #24dbbd;
+}
+
+.readonly.ElemLocation .wrapper {
+    background-color: #009cff;
+}
+
+.readonly.ElemLink .wrapper > *,
+.readonly.ElemLocation .wrapper > * {
+    vertical-align: middle;
+}
+
+.readonlyimg.FormIcon {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+

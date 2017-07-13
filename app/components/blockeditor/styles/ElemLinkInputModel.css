@@ -1,0 +1,18 @@
+.ElemLinkInput {
+}
+
+.ElemLinkInput.modal-dialog {
+    width: 430px;
+}
+
+.ElemLinkInput .modal-body {
+    padding: 0 30px 30px;
+}
+
+.ElemLinkInput input {
+    width: 100%;
+    padding: 20px 10px;
+    font-size: 18px;
+    border: 2px solid #e5e5e5;
+
+}

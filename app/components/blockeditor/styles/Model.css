@@ -1,0 +1,50 @@
+.modal-content {
+    border-radius: 0 !important;
+}
+.modal-header {
+    text-align: center;
+    border-bottom: none !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.modal-header {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+}
+
+.modal-body {
+    position: relative !important;
+    margin-top: -15px !important;
+}
+.modal-footer {
+    padding: 0 !important;
+}
+.modal-footer > span {
+    width: 50%;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+.modal-footer > span.cancel {
+    background: #e0e0e0;
+}
+.modal-footer > span.confirm {
+    background: #23debf;
+}
+
+img.DialogIcon {
+    width: 27px;
+    height: 19px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}

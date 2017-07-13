@@ -1,0 +1,42 @@
+.ElemPhoto {
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+.ElemPhoto .photoPreview .dropzone {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+.ElemPhoto .pleaseAdd {
+    margin-top: 90px;
+}
+.ElemPhoto .photoPreview {
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+.ElemPhoto .photoPreview img.preview {
+    width: 100%;
+    height: auto;
+}
+
+.ElemPhoto:not(.readonly) .photoPreview {
+    /*图片元素固定高度*/
+    height: 200px;
+    overflow: hidden;
+    border: none;
+}
+
+
+.ElemPhoto:not(.readonly) .photoPreview img.preview {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 0;
+    top: -50%;
+}

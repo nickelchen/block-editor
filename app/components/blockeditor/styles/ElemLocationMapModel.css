@@ -1,0 +1,66 @@
+.ElemLocationMap {
+}
+
+.ElemLocationMap .modal-body {
+    padding: 0;
+}
+
+#mapContainer {
+    height: 390px;
+}
+
+
+.ElemLocationMap #search {
+    padding: 16px;
+    background-color: black;
+    font-size: 20px;
+}
+
+.ElemLocationMap #search input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding-left: 2px;
+    margin-left: 10px;
+    width: 90%;
+}
+
+.ElemLocationMap #search img {
+    vertical-align: middle;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.ElemLocationMap #search input,
+.ElemLocationMap #search img {
+    vertical-align: middle;
+}
+
+.ElemLocationMap .searchResult {
+    position: absolute;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+    line-height: 36px;
+    padding: 0 40px;
+    height: 390px;
+    overflow: hidden;
+}
+
+.ElemLocationMap .searchResult li {
+    list-style: none;
+    border-bottom: 1px solid gray;
+    height: 65px;
+    line-height: 65px;
+    font-size: 18px;
+}
+
+.amap-logo,
+.amap-copyright {
+    display: none;
+}
+
+.ElemLocationMap .searchResult li .name {
+    /*color: red;*/
+    cursor: pointer;
+}

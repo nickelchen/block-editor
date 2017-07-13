@@ -1,0 +1,35 @@
+.ElemToolbar {
+  border: none;
+  text-align: center;
+  font-size: 0px;
+  margin: 25px 0;
+  height: 30px;
+  position: relative;
+}
+
+.ElemToolbar .Tools {
+    position: absolute;
+    left: 50%;
+}
+
+.ElemToolbar img {
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.ElemToolbar img.Link,
+.ElemToolbar img.Location,
+.ElemToolbar img.Image,
+.ElemToolbar img.Text
+{
+    transition: top 0.2s, left 0.3s, opacity 0.3s;
+}
+
+.ElemToolbar img.Add {
+    left: 50%;
+    margin-left: -15px;
+    transition: opacity 0.2s;
+    background-color: white;
+}

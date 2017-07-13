@@ -1,0 +1,23 @@
+.Navigation {
+
+}
+
+.Navigation .navHeader {
+    padding-bottom: 0px;
+}
+.Navigation .navHeader span {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    color: #e5e5e5;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #e5e5e5;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+.Navigation .navHeader span.selected {
+    padding-bottom: 22px;
+    color: #020202;
+    border-bottom: 5px solid #21dfc3;
+}
