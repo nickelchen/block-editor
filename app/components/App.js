@@ -2,6 +2,9 @@ import React from 'react';
 import ReactMixin from 'react-mixin';
 import LinkedImmutableStateMixin from 'reactlink-immutable';
 
+import { Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import styles from '../styles/App.css';
 import BlockEditor from './blockeditor/BlockEditor';
 
@@ -33,7 +36,7 @@ export default class App extends React.Component {
         return (
             <div className="App">
                 <BlockEditor ref="body_ref" body={model.body} />
-                <button onClick={this.getValue.bind(this)}> Get value </button>
+                <Button bsStyle="primary" bsSize="large" block onClick={this.getValue.bind(this)}> Get value </Button>
             </div>
         )
     }

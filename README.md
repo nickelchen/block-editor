@@ -1,6 +1,7 @@
 Block-Editor is a react component that is used to compose articles.
 
-![demo.gif](./demo.gif "Demo of BlockEditor usage")
+![demo1.gif](./demo1.gif "Demo of BlockEditor usage")
+![demo2.gif](./demo2.gif "Demo of BlockEditor usage")
 
 For an article, it can be seperated to `blocks`, these blocks can be moved around, reorder, added, deleted,
 at last time, when author finish composing, he can get an array of blocks.
